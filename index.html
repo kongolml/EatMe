@@ -1,0 +1,288 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0AS_5yaB4Mt9aVLKfslzecUjIh-_dKuY"></script>
+        <script type="text/javascript">
+          function initialize() {
+            var myLatlng = new google.maps.LatLng(50.422635,30.505849);
+            var mapOptions = {
+              center: myLatlng,
+              zoom: 14,
+              scrollwheel: false
+            };
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: 'Мы тут!'
+          });
+
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <article class="hero">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-5">
+                <p class="title">Доставка<br>полезной еды<br>в ваш дом</p>
+                <button data-toggle="modal" data-target="#myModal">Попробовать</button>
+
+                <div class="info">
+                  <div class="content">
+                    <p class="tel">(000) 000 00 00</p>
+                    <p>доставим вас с 5:00 до 11:00 рацион еды на весь день</p>
+                  </div><!-- content -->
+                </div><!-- info -->
+
+              </div><!-- col-xs-12 -->
+            </div><!-- row -->
+          </div><!-- container -->
+          <img src="img/fluf-white.png" class="cap bottom">
+        </article><!-- hero -->
+
+        <article class="intro">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-3 col-xs-12">
+                <img src="img/vector/time.png" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-md-3 col-xs-12 -->
+
+              <div class="col-md-3 col-xs-12">
+                <img src="img/vector/cook.png" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-md-3 col-xs-12 -->
+
+              <div class="col-md-3 col-xs-12">
+                <img src="img/vector/food.png" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-md-3 col-xs-12 -->
+
+              <div class="col-md-3 col-xs-12">
+                <img src="img/vector/body.png" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-md-3 col-xs-12 -->
+
+              <div class="col-xs-12">
+                <p class="title">мы решим все ваши проблемы</p>
+                <button data-toggle="modal" data-target="#myModal">Заказать консультацию</button>
+              </div><!-- col-xs-12 -->
+
+            </div><!-- row -->
+          </div><!-- container -->
+        </article><!-- intro -->
+
+        <article class="team">
+          <img src="img/fluf-white-green.jpg" class="cap top">
+          <div class="container">
+
+            <div class="row mate">
+              <div class="col-md-3 col-xs-12">
+                <img src="img/team/dummy.jpg" class="img-responsive teammate">
+              </div><!-- col-md-3 col-xs-12 -->
+              <div class="col-md-9 col-xs-12">
+                <p class="name"><span>Надежда николаевна</span><br>Заслуженный диетолог и гастроэнтеролог</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div><!-- col-md-9 col-xs-12 -->
+            </div><!-- row mate -->
+
+            <div class="row mate">
+              <div class="col-md-3 col-xs-12">
+                <img src="img/team/dummy.jpg" class="img-responsive teammate">
+              </div><!-- col-md-3 col-xs-12 -->
+              <div class="col-md-9 col-xs-12">
+                <p class="name"><span>Надежда николаевна</span><br>Заслуженный диетолог и гастроэнтеролог</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div><!-- col-md-9 col-xs-12 -->
+            </div><!-- row mate -->
+
+          </div><!-- container -->
+        </article><!-- team -->
+
+        <article class="how-it-works">
+          <img src="img/fluf-green.jpg" class="cap top">
+          <div class="container">
+            <div class="row">
+              <p class="title">вы приняли решение правильно питаться?</p>
+
+              <div class="col-xs-12 col-md-3 block top first">
+                <img src="img/vector/blocks.jpg" class="img-responsive">
+                <p class="description"><span>Lorem ipsum</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-xs-12 col-md-3 -->
+
+              <div class="col-xs-12 col-md-3 block bottom">
+                <img src="img/vector/chief.jpg" class="img-responsive">
+                <p class="description"><span>Lorem ipsum</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-xs-12 col-md-3 -->
+
+              <div class="col-xs-12 col-md-3 block top">
+                <img src="img/vector/hand.jpg" class="img-responsive">
+                <p class="description"><span>Lorem ipsum</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-xs-12 col-md-3 -->
+
+              <div class="col-xs-12 col-md-3 block bottom">
+                <img src="img/vector/heart.jpg" class="img-responsive">
+                <p class="description"><span>Lorem ipsum</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!-- col-xs-12 col-md-3 -->
+
+            </div><!-- row -->
+          </div><!-- container -->
+        </article><!-- how-it-works -->
+
+        <article class="testimonials">
+          <img src="img/fluf-white-grey.jpg" class="cap top">
+          <div class="container">
+            <div class="row">
+              <p class="title">о нас говорят</p>
+
+              <div class="col-md-4 col-xs-12">
+                <img src="img/team/dummy.jpg" class="img-responsive mate">
+                <p class="name"><span>имя фамилия,</span><br>род занятий</p>
+                <img src="img/vector/gradient-diag.jpg" class="img-responsive diag">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div><!-- col-md-4 col-xs-12 -->
+
+              <div class="col-md-4 col-xs-12">
+                <img src="img/team/dummy.jpg" class="img-responsive mate">
+                <p class="name"><span>имя фамилия,</span><br>род занятий</p>
+                <img src="img/vector/gradient-diag.jpg" class="img-responsive diag">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div><!-- col-md-4 col-xs-12 -->
+
+              <div class="col-md-4 col-xs-12">
+                <img src="img/team/dummy.jpg" class="img-responsive mate">
+                <p class="name"><span>имя фамилия,</span><br>род занятий</p>
+                <img src="img/vector/gradient-diag.jpg" class="img-responsive diag">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div><!-- col-md-4 col-xs-12 -->     
+
+            </div><!-- row -->
+          </div><!-- container -->
+        </article><!-- testimonials -->
+
+        <article class="contact">
+          <img src="img/fluf-grey.png" class="cap top">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <p class="title">контакты</p>
+                <p>г.Киев, ул. Улица, дом<br>(000) 000 00 00<br>e-mail</p>
+
+                <div class="social">
+                  <a href="#"><i class="icon-vk"></i></a>
+                  <a href="#"><i class="icon-instagram"></i></a>
+                  <a href="#"><i class="icon-facebook"></i></a>
+                  <a href="#"><i class="icon-twitter"></i></a>
+                </div><!-- social -->
+
+              </div><!-- col-xs-12 -->
+            </div><!-- row -->
+          </div><!-- container -->
+          <div id="map-canvas"></div>
+          <img src="img/fluf-white.png" class="cap bottom">
+        </article><!-- contact -->
+
+        <article class="question">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <p class="title">задайте вопрос</p>
+
+                <form class="registrationForm" role="form" method="post" action="form.php">
+                  <div class="content row">
+                    <div class="col-xs-12 col-md-6">
+                      <input type="text" placeholder="Имя" name="fullName">
+                      <input type="tel" placeholder="Телефон" name="phoneNumber">
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12 col-md-6 visible-md visible-lg">
+                      <button  type="submit" name="signup" value="Submit">Отправить</button>
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12">
+                      <textarea rows="6" placeholder="Вопрос" name="message"></textarea>
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12 visible-xs visible-sm">
+                      <button  type="submit" name="signup" value="Submit">Отправить</button>
+                    </div><!-- col-md-6 -->
+                  </div><!-- content -->
+                </form>
+
+              </div><!-- col-xs-12 -->
+            </div><!-- row -->
+          </div><!-- container -->
+        </article><!-- question -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <form class="registrationForm" role="form" method="post" action="form.php">
+                  <div class="content row">
+                    <div class="col-xs-12 col-md-6">
+                      <input type="text" placeholder="Имя" name="fullName">
+                      <input type="tel" placeholder="Телефон" name="phoneNumber">
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12 col-md-6 visible-md visible-lg">
+                      <button  type="submit" name="signup" value="Submit">Отправить</button>
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12">
+                      <textarea rows="6" placeholder="Вопрос" name="message"></textarea>
+                    </div><!-- col-md-6 -->
+                    <div class="col-xs-12 visible-xs visible-sm">
+                      <button  type="submit" name="signup" value="Submit">Отправить</button>
+                    </div><!-- col-md-6 -->
+                  </div><!-- content -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <p>Спасибо! Мы с Вами свяжемся.</p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/jquery.form.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
