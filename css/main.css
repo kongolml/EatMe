@@ -305,6 +305,10 @@ a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus
 	width: 116px;
 }
 
+.contact #map-canvas {
+	height: 500px;
+}
+
 .question {
 	padding: 120px 0;
 }
